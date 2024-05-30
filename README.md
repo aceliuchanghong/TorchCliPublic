@@ -18,8 +18,13 @@ TorchCliPublic/
 |
 ├── README.md
 ├── requirements.txt
-├── 01-微调/
-├── 02-推理/
+├── 01-LLM_FineTune/
+│   └── 01-llama_factory_readme.md
+├── 02-LLM_Inference/
+├── 03-Voice_Stuff/
+│   ├── download_file.md
+│   ├── test_tts01.py
+│   └── test_tts02.py
 └── util/
     ├── remove_comments.py
     └── structure.py
