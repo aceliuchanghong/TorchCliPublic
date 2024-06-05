@@ -22,9 +22,19 @@ TorchCliPublic/
 │   └── 01-llama_factory_readme.md
 ├── 02-LLM_Inference/
 ├── 03-Voice_Stuff/
-│   ├── download_file.md
-│   ├── test_tts01.py
-│   └── test_tts02.py
+│   ├── chatTTS.ipynb
+│   ├── chatTTS_server_log.md
+│   └── media2text_api.md
+├── 04-Ollama/
+│   ├── Modelfile.txt
+│   ├── llm_api.md
+│   └── ollama_readme.md
+├── 05-Comfyui/
+│   ├── comfyui_colab.ipynb
+│   ├── start.md
+│   └── load_json/
+│       ├── first_one.json
+│       └── img2img_01.json
 └── util/
     ├── remove_comments.py
     └── structure.py
