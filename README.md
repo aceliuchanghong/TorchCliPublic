@@ -1,5 +1,5 @@
-# TorchCliPublic
-执行的命令记录(数据文件别放在这儿)
+## TorchCliPublic
+大模型操作记录
 
 ### create a test env
 
@@ -31,10 +31,9 @@ TorchCliPublic/
 │   └── ollama_readme.md
 ├── 05-Comfyui/
 │   ├── comfyui_colab.ipynb
-│   ├── start.md
-│   └── load_json/
-│       ├── first_one.json
-│       └── img2img_01.json
+│   └── start.md
+├── 06-MaxKB/
+│   └── MaxKB_reademe.md
 └── util/
     ├── remove_comments.py
     └── structure.py
