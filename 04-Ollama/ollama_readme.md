@@ -9,10 +9,20 @@ systemctl disable ollama.service
 ### confirm its status
 
 systemctl status ollama.service
+systemctl start ollama.service
 
-### file
+### modelfile
 
-/etc/systemd/system/ollama.service
+ollama create Qwen2-72B-Instruct -f Modelfile
+ollama run Qwen2-72B-Instruct 
+
+### env
+
+vi /etc/systemd/system/ollama.service
+
+Environment="OLLAMA_MODELS=/mnt/data/ollama/models"
+Environment="OLLAMA_HOST=0.0.0.0"
+
 ```text
 ~# cat /etc/systemd/system/ollama.service
 [Unit]
